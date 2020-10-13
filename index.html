@@ -26,27 +26,31 @@
       			</li>
       			<li>
       				<label for="phone">Phone</label>
-      				<input id="phone" name="phone" type="text" required>
+      				<input id="phone" name="phone" type="tel" required>
       			</li>
       		</ul>
 
       		<h3>Enter your delivery address</h3>
       		<ul>
       			<li>
-      				<label for="address">Address</label>
+      				<label for="address">Street Address</label>
+      				<input id="address" name="address" type="text" required></input>
+      			</li>
+            <li>
+      				<label for="address">City</label>
       				<input id="address" name="address" type="text" required></input>
       			</li>
       			<li>
       				<label for="state">State</label>
-      				<input id="state" name="state" type="text" required>
+      				<input id="state" name="state" type="select" required>
       			</li>
       			<li>
       				<label for="country">Country</label>
-      				<input id="country" name="country" type="text" required>
+      				<input id="country" name="country" type="select" required>
       			</li>
-                  			<li>
+            <li>
       				<label for="postcode">Post code</label>
-      				<input id="postcode" name="postcode" type="text" required>
+      				<input id="postcode" name="postcode" type="number" required>
       			</li>
       		</ul>
       		<h3>Enter your card details</h3>
@@ -61,11 +65,11 @@
       			</li>
       			<li>
       				<label for="cardnumber">Card number</label>
-      				<input id="cardnumber" name="cardnumber" type="text" required>
+      				<input id="cardnumber" name="cardnumber" type="number" required>
       			</li>
       			<li>
       				<label for="secure">Security code</label>
-      				<input id="secure" name="secure" type="text" required>
+      				<input id="secure" name="secure" type="number" max="999" required>
       			</li>
 
       		</ul>
